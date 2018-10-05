@@ -1,5 +1,5 @@
 body {
-	background-image: url(images/soft_wallpaper/soft_wallpaper.png);
+	background-image: url(../images/soft_wallpaper/soft_wallpaper.png);
 }
 .container {
 	min-height: 100%;
@@ -41,5 +41,5 @@ body {
 	min-height: 100%;
 }
 #background {
-	background-image: url(images/ricepaper_v3/ricepaper_v3.png);
+	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
 }
