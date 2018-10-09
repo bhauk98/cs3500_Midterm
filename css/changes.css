@@ -1,6 +1,9 @@
 body {
 	background-image: url(../images/soft_wallpaper/soft_wallpaper.png);
 }
+h2 {
+	border-bottom: 1pt solid saddlebrown;
+}
 .container {
 	min-height: 100%;
 }
@@ -39,6 +42,13 @@ body {
 .jumbotron {
 	border: 1pt solid saddlebrown;
 	min-height: 100%;
+}
+.center {
+	text-align: center;
+}
+#sub {
+	color: gray;
+	font-size: 12pt;
 }
 #background {
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
