@@ -29,10 +29,6 @@ h2 {
 	margin: 50px 0px;
 	font-size: 28pt;
 }
-#nav-color {
-	color: saddlebrown;
-	font-family: 'Abril Fatface', sans-serif;
-}
 .footer {
 	border-top: 1pt solid saddlebrown;
 }
@@ -43,7 +39,9 @@ h2 {
 	border: 1pt solid saddlebrown;
 	min-height: 100%;
 }
-.center {
+#head-font {
+	color: saddlebrown;
+	font-family: 'Abril Fatface', sans-serif;
 	text-align: center;
 }
 #sub {
@@ -53,3 +51,8 @@ h2 {
 #background {
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
 }
+#nav-color {
+	color: saddlebrown;
+	font-family: 'Abril Fatface', sans-serif;
+}
+
