@@ -54,7 +54,6 @@ h2 {
 	color:#434746;
 	font-family: 'Noto Sans', sans-serif;
 }
-<<<<<<< HEAD
 .menuGroups{
 	font-size:30px;
 	font-weight:bold;
@@ -65,7 +64,6 @@ h2 {
 	font-family: 'Noto Sans', sans-serif;
 	border:5px;
 }
-=======
 #nav-color {
 	color: saddlebrown;
 	font-family: 'Abril Fatface', sans-serif;
@@ -74,4 +72,7 @@ h2 {
 	text-align: center;
 	line-height: 40PX;
 }
->>>>>>> a8417eb23c2874adbce1f9fa4915fecfe75d9a68
+#index-text {
+	line-height: 40px;
+}
+
