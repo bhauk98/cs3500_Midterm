@@ -1,6 +1,9 @@
 body {
 	background-image: url(../images/soft_wallpaper/soft_wallpaper.png);
 }
+h2 {
+	border-bottom: 1pt solid saddlebrown;
+}
 .container {
 	min-height: 100%;
 }
@@ -26,10 +29,6 @@ body {
 	margin: 50px 0px;
 	font-size: 28pt;
 }
-#nav-color {
-	color: saddlebrown;
-	font-family: 'Abril Fatface', sans-serif;
-}
 .footer {
 	border-top: 1pt solid saddlebrown;
 }
@@ -40,11 +39,22 @@ body {
 	border: 1pt solid saddlebrown;
 	min-height: 100%;
 }
+#head-font {
+	color: saddlebrown;
+	font-family: 'Abril Fatface', sans-serif;
+	text-align: center;
+}
+#sub {
+	color: gray;
+	font-size: 12pt;
+	text-align: center;
+}
 #background {
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
 	color:#434746;
 	font-family: 'Noto Sans', sans-serif;
 }
+<<<<<<< HEAD
 .menuGroups{
 	font-size:30px;
 	font-weight:bold;
@@ -55,3 +65,13 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 	border:5px;
 }
+=======
+#nav-color {
+	color: saddlebrown;
+	font-family: 'Abril Fatface', sans-serif;
+}
+#cater-menu {
+	text-align: center;
+	line-height: 40PX;
+}
+>>>>>>> a8417eb23c2874adbce1f9fa4915fecfe75d9a68
