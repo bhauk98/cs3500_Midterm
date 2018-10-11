@@ -42,4 +42,16 @@ body {
 }
 #background {
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
+	color:#434746;
+	font-family: 'Noto Sans', sans-serif;
+}
+.menuGroups{
+	font-size:30px;
+	font-weight:bold;
+}
+#PanelBox{
+	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
+	color:#434746;
+	font-family: 'Noto Sans', sans-serif;
+	border:5px;
 }
