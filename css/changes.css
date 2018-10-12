@@ -31,6 +31,7 @@ h2 {
 }
 .footer {
 	border-top: 1pt solid saddlebrown;
+	
 }
 .footer-text {
 	text-align: center;
@@ -54,18 +55,27 @@ h2 {
 	color:#434746;
 	font-family: 'Noto Sans', sans-serif;
 }
-<<<<<<< HEAD
 .menuGroups{
 	font-size:30px;
 	font-weight:bold;
+	color:#434746;
+	
 }
+.list-group a{
+	color:#434746;
+	text-decoration:none;
+	
+	
+}
+
 #PanelBox{
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
 	color:#434746;
 	font-family: 'Noto Sans', sans-serif;
 	border:5px;
+	border-radius: 0px 15px 0px 0px;
+	text-decoration: none;
 }
-=======
 #nav-color {
 	color: saddlebrown;
 	font-family: 'Abril Fatface', sans-serif;
@@ -74,4 +84,48 @@ h2 {
 	text-align: center;
 	line-height: 40PX;
 }
->>>>>>> a8417eb23c2874adbce1f9fa4915fecfe75d9a68
+.menu-mainimg{
+	width:500px;
+	height:330px;
+	border-radius:15px 15px 0px 0px;
+	margin-left:15%;
+}
+.nav navbar-nav {
+	
+}
+.menu-displayed { 
+	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
+	color:#434746;
+	font-size: 20px;
+	margin-bottom:30px;
+}
+.menu-displayed td{ 
+	padding:10px;
+	border: .5px #f2f2f2 solid;
+}
+.menu-displayed tr{
+	-webkit-trasition: background-color 2s;
+	trasition: background-color 2s;
+}
+.menu-displayed tr:hover{
+	background-image: url(../images/soft_wallpaper/soft_wallpaper.png);
+}
+.col-md-7{
+	margin-bottom:30px;
+}
+.menu-displayed tr{
+	
+}
+.resForm{
+	text-align:center;
+}
+.resForm label{
+	font-size: 20px;
+	color: #434746;
+	
+}
+.compBtn{
+	
+}
+
+
