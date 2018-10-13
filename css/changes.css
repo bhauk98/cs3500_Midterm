@@ -8,17 +8,17 @@ h2 {
 	min-height: 100%;
 }
 .navbar {
-	min-height: 150px;	
+	min-height: 100px;	
 	width: 100%;
 	border-bottom: 1pt solid saddlebrown;
 	border-radius: 0;
+	text-align: center;
 }
-
 .navbar-brand {
-	padding: 0px 15px;
-	height: 150px;
-	line-height: 150px;
-	color: sienna;
+	margin-top: 10px;
+	padding: 0px 60px 0px 40px;
+	height: 100px;
+	line-height: 100px;
 }
 .navbar-nav {
 	margin-top: 30px;
@@ -26,7 +26,7 @@ h2 {
 
 }
 .nav {
-	margin: 50px 0px;
+	margin: 25px 0px;
 	font-size: 28pt;
 }
 .footer {
@@ -39,10 +39,19 @@ h2 {
 	border: 1pt solid saddlebrown;
 	min-height: 100%;
 }
+.color {
+	color: saddlebrown;
+}
+#head-button {
+	margin-top: 20px;
+	border-color: saddlebrown;
+	color: brown;
+}
 #head-font {
 	color: saddlebrown;
 	font-family: 'Abril Fatface', sans-serif;
 	text-align: center;
+	margin-bottom: 10px;
 }
 #sub {
 	color: gray;
@@ -66,7 +75,7 @@ h2 {
 }
 #nav-color {
 	color: saddlebrown;
-	font-family: 'Abril Fatface', sans-serif;
+	font-family: 'acme', sans-serif;
 }
 #cater-menu {
 	text-align: center;
@@ -76,3 +85,57 @@ h2 {
 	line-height: 40px;
 }
 
+#nav-color:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+@media (max-width: 1199px) {
+	.navbar {
+		min-height: 75px;
+	}
+	.navbar-brand {
+		height: 75px;
+		line-height: 75px;
+	}
+	.nav {
+		font-size: 20pt;
+	}
+	.navbar-nav {
+		margin-top: 20px;
+		padding: 4px 6px;
+	}
+}
+@media (max-width: 991px) {
+   	.navbar {
+		min-height: 75px;
+	}
+	.navbar-brand {
+		height: 65px;
+		line-height: 65px;
+	}
+	.nav {
+		font-size: 16pt;
+	}
+	.navbar-nav {
+		margin-top: 20px;
+		padding: 0px;
+	}
+}
+@media (max-width: 768px) {
+   	.navbar {
+		min-height: 75px;
+	}
+	.navbar-brand {
+		height: 65px;
+		line-height: 65px;
+		margin-bottom: 5px;
+	}
+	.nav {
+		font-size: 16pt;
+	}
+	.navbar-nav {
+		margin-top: 20px;
+		padding: 0px;
+	}
+}
