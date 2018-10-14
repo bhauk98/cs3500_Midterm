@@ -4,21 +4,23 @@ body {
 h2 {
 	border-bottom: 1pt solid saddlebrown;
 }
+
+/*classes begin*/
 .container {
 	min-height: 100%;
 }
 .navbar {
-	min-height: 150px;	
+	min-height: 100px;	
 	width: 100%;
 	border-bottom: 1pt solid saddlebrown;
 	border-radius: 0;
+	text-align: center;
 }
-
 .navbar-brand {
-	padding: 0px 15px;
-	height: 150px;
-	line-height: 150px;
-	color: sienna;
+	margin-top: 10px;
+	padding: 0px 60px 0px 40px;
+	height: 100px;
+	line-height: 100px;
 }
 .navbar-nav {
 	margin-top: 30px;
@@ -26,7 +28,7 @@ h2 {
 
 }
 .nav {
-	margin: 50px 0px;
+	margin: 25px 0px;
 	font-size: 28pt;
 }
 .footer {
@@ -40,10 +42,29 @@ h2 {
 	border: 1pt solid saddlebrown;
 	min-height: 100%;
 }
+.color {
+	color: saddlebrown;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: saddlebrown;
+	color: brown;
+}
+.menuGroups{
+	font-size:30px;
+	font-weight:bold;
+}
+
+/*id's begin*/
+#head-button {
+	margin-top: 20px;
+	border-color: saddlebrown;
+	color: brown;
+}
 #head-font {
 	color: saddlebrown;
 	font-family: 'Abril Fatface', sans-serif;
 	text-align: center;
+	margin-bottom: 10px;
 }
 #sub {
 	color: gray;
@@ -55,12 +76,21 @@ h2 {
 	color:#434746;
 	font-family: 'Noto Sans', sans-serif;
 }
+<<<<<<< .mine
 .menuGroups{
 	font-size:30px;
 	font-weight:bold;
 	color:#434746;
 	
 }
+=======
+
+
+
+
+
+
+>>>>>>> .theirs
 .list-group a{
 	color:#434746;
 	text-decoration:none;
@@ -78,9 +108,9 @@ h2 {
 }
 #nav-color {
 	color: saddlebrown;
-	font-family: 'Abril Fatface', sans-serif;
+	font-family: 'acme', sans-serif;
 }
-#cater-menu {
+#body-text {
 	text-align: center;
 	line-height: 40PX;
 }
@@ -88,6 +118,7 @@ h2 {
 	line-height: 40px;
 }
 
+<<<<<<< .mine
 .menu-mainimg{
 	width:500px;
 	height:330px;
@@ -133,3 +164,50 @@ h2 {
 }
 
 
+=======
+#nav-color:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+/*changes based on window size*/
+@media (max-width: 1199px) {
+	.navbar {
+		min-height: 75px;
+	}
+	.navbar-brand {
+		height: 75px;
+		line-height: 75px;
+	}
+	.nav {
+		font-size: 20pt;
+	}
+	.navbar-nav {
+		margin-top: 20px;
+		padding: 4px 6px;
+	}
+}
+@media (max-width: 991px) {
+	.navbar-brand {
+		height: 65px;
+		line-height: 65px;
+	}
+	.nav {
+		font-size: 16pt;
+	}
+	.navbar-nav {
+		padding: 0px;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-brand {
+		margin-bottom: 5px;
+	}
+	#nav-color:hover {
+		color: saddlebrown;
+		background-color: lightgray;
+	}
+}
+
+
+>>>>>>> .theirs
