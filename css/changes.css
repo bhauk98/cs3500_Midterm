@@ -84,6 +84,10 @@ h2 {
 	text-align: center;
 	line-height: 40PX;
 }
+#index-text {
+	line-height: 40px;
+}
+
 .menu-mainimg{
 	width:500px;
 	height:330px;
