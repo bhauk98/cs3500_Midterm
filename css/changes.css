@@ -76,21 +76,14 @@ h2 {
 	color:#434746;
 	font-family: 'Noto Sans', sans-serif;
 }
-<<<<<<< .mine
 .menuGroups{
 	font-size:30px;
 	font-weight:bold;
 	color:#434746;
 	
 }
-=======
 
 
-
-
-
-
->>>>>>> .theirs
 .list-group a{
 	color:#434746;
 	text-decoration:none;
@@ -98,13 +91,22 @@ h2 {
 	
 }
 
-#PanelBox{
+#PanelBox1,#PanelBox2,#PanelBox3{
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
 	color:#434746;
+	cursor: pointer;
 	font-family: 'Noto Sans', sans-serif;
 	border:5px;
 	border-radius: 0px 15px 0px 0px;
 	text-decoration: none;
+	transition: ease-in 1s;
+	-webkit-transition: ease-in 1s;
+	
+}
+
+#breakfast,#lunch,#dinner{
+	cursor: pointer;
+	
 }
 #nav-color {
 	color: saddlebrown;
@@ -118,7 +120,6 @@ h2 {
 	line-height: 40px;
 }
 
-<<<<<<< .mine
 .menu-mainimg{
 	width:500px;
 	height:330px;
@@ -163,8 +164,6 @@ h2 {
 	
 }
 
-
-=======
 #nav-color:hover {
 	color: gray;
 	text-decoration: underline;
@@ -208,6 +207,3 @@ h2 {
 		background-color: lightgray;
 	}
 }
-
-
->>>>>>> .theirs
