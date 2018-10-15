@@ -153,15 +153,28 @@ h2 {
 	
 }
 .resForm{
-	text-align:center;
+	font-size:15px;
+	position:relative;
+	padding-left:30%;
 }
 .resForm label{
-	font-size: 20px;
-	color: #434746;
+	display: inline-block;
+	width: 140px;
+	text-align: right;
 	
 }
-.compBtn{
-	
+.resForm input{
+	margin-left:20px;
+}
+.resForm input[type=submit]{
+	margin-left:20%;
+	position:relative;
+	height:50px;
+	font-size:20px;
+	width:120px;
+}
+.resForm k{
+	color:red;
 }
 
 #nav-color:hover {

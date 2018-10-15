@@ -17,6 +17,7 @@ function Breakfast() {
 	if( lunchBtn.style.background === "rgb(100, 149, 237)"){
 	lunchBtn.style.background = "url(images/ricepaper_v3/ricepaper_v3.png)";
 	document.getElementById("menuGroups2").style.color = "#434746";
+	console.log("test");
 	}
 	if( dinnerBtn.style.background === "rgb(100, 149, 237)"){
 	dinnerBtn.style.background = "url(images/ricepaper_v3/ricepaper_v3.png)";

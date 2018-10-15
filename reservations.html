@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/changes.css">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+	
 </head>
 <body>
 	<div class="top">
@@ -38,13 +39,24 @@
 	<div class="container">
 		<div class="jumbotron" id="background">
 			<h1 id="head-font">Reservations</h1><br>
-			<form class="resForm">
-				<label>Name: *</label>
-				<input type="text" name="custName" placeholder="John Smith" required/><br><br>
-				<label>Phone Number: *</label>
-				<input type="tel" name="custPhone" placeholder="(999) 999-9999" required/><br><br>
-				<label>Time: *</label>
-				<input type="time" name="custTime" placeholder="" required/><br><br>
+			<form class="resForm" method='get' action='http://www.randyconnolly.com/tests/process.php'>
+				<label>Name: <k>*</k></label>
+				<input type="text" name="custName" placeholder="John Smith" required><br><br>
+				<label>Phone Number: <k>*</k></label>
+				<input type="tel" name="custPhone" placeholder="(999) 999-9999" required><br><br>
+				<label>Reservation Date: <k>*</k></label>
+				
+				<input type="date" name="resDate" id="datePicker" required><br><br>
+				<script>
+				document.getElementById('datePicker').value = new Date().toISOString().substring(0, 10);
+				</script>
+				<label>Time: <k>*</k></label>
+				<input type="time" name="custTime" id="timePicker" required><br><br>
+				<script type="text/javascript">
+				  document.getElementById("timePicker").value = new Date().getHours();
+				</script>
+				<label>No. of guest: <k>*</k></label>
+				<input type="number" name="noGuest" placeholder="" min='1' max='10' required><br><br>
 				<input type="submit" value="Complete" class="compBtn"/><br />
 			</form>
 		</div>
