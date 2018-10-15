@@ -164,7 +164,7 @@ h2 {
 	text-align: right;
 	
 }
-.resForm input{
+.resForm input, .resForm select{
 	margin-left:20px;
 }
 .resForm input[type=submit]{
