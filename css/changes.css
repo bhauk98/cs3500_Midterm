@@ -63,7 +63,7 @@ h2 {
 }
 #head-font {
 	color: saddlebrown;
-	font-family: 'Abril Fatface', sans-serif;
+	font-family: 'acme', sans-serif;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -127,9 +127,6 @@ h2 {
 	border-radius:15px 15px 0px 0px;
 	margin-left:15%;
 }
-.nav navbar-nav {
-	
-}
 .menu-displayed { 
 	background-image: url(../images/ricepaper_v3/ricepaper_v3.png);
 	color:#434746;
@@ -149,9 +146,6 @@ h2 {
 }
 .col-md-7{
 	margin-bottom:30px;
-}
-.menu-displayed tr{
-	
 }
 .resForm{
 	font-size:15px;
